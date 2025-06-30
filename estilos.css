@@ -167,9 +167,7 @@ h3{
     
     
 }
-h3:hover{
-    transform: scale(1.2);
-}
+
 pre{
     font-size:20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -192,6 +190,16 @@ footer{
 
 .correo{
     color: var(--color-fondo);
+}
+
+
+
+
+@media (max-width: 768px) {
+  .cuerpo::before {
+ content: none;
+    background: none;
+  }
 }
   
 
